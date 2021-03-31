@@ -1,5 +1,6 @@
 import './App.css';
 import Navigation from './Navigation.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
           <Navigation />
       </header>
       
+      <footer>
+          <Footer />
+      </footer>
+
     </div>
   );
 }
